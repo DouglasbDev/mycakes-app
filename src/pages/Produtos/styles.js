@@ -7,10 +7,9 @@ export const styles = StyleSheet.create({
         justifyContent: 'center'
     },
     cardProduto:{
+        flex:1,
         backgroundColor: '#00d',
-        borderRadius: 8,
-        height: '80%',
-        width: '90%',
+        width: '100%',
         padding: 20,
         alignItems: 'center'
     },
@@ -20,16 +19,16 @@ export const styles = StyleSheet.create({
     },
     nomeProduto:{
         color: '#FFF',
-        fontSize: 20,
+        fontSize: 15,
         textAlign: 'center'
     },
     precoProduto:{
-        fontSize: 25,
+        fontSize: 12,
         color: '#fff'
     },
     descricaoProduto:{
         marginTop: 20,
-        fontSize: 20,
+        fontSize: 15,
         fontStyle: 'italic',
         color: '#fff'
     }
